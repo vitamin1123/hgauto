@@ -8,7 +8,7 @@
 var parentList = className("android.view.View").scrollable(true).findOne();
 
 // 2. 在这个容器的后代中搜索符合条件的节点
-// 1. 获取所有深度为 15 的容器节点
+// 1. 获取所有深度为 15 的容器
 var items = className("android.view.View").depth(15).find();
 log("共找到 " + items.length + " 个列表项");
 

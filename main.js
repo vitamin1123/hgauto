@@ -1,4 +1,4 @@
-// 主逻辑执行
+// 主逻辑
 main();
 
 function main() {

@@ -3,7 +3,7 @@
 var parentList = className("android.view.View").scrollable(true).findOne();
 
 
-// 1. 获取所有列表项容器（保持你测试成功的深度）
+// 1. 
 var items = className("android.view.View").depth(12).find();
 log("共找到 " + items.length + " 个列表项容器");
 

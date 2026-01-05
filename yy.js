@@ -9,7 +9,7 @@ text("确定").findOne().click();
 
 // text("我的课程").findOne().click();
 // text("参与中").findOne().click();
-
+//
 var parentList = className("android.view.View").scrollable(true).findOne();
 
 // 2. 在这个容器的后代中搜索符合条件的节点
