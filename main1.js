@@ -44,7 +44,7 @@ while (true) {
 function doDetailLearning() {
     while (true) {
         log("正在详情页扫描未完成章节...");
-        sleep(2000); // 等待列表加载
+        sleep(4000); // 等待列表加载
         var target = findFirstIncomplete();
 
         if (target) {
@@ -52,7 +52,7 @@ function doDetailLearning() {
             
             // 点击进入章节
             clickNode(target.node);
-            sleep(4000); // 等待播放器加载
+            sleep(2000); // 等待播放器加载
 
             // 查找播放按钮并点击
             var playBtn = selector().idMatches(/.*component.*/).findOne(5000);
